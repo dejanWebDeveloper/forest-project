@@ -1,0 +1,87 @@
+html{
+    font-size: 10px;
+    background-color: #000;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#000;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0rem;
+}
+header{
+    border-bottom: 1px solid #cccccc;
+    background-color: #fff2f2;
+}
+h2{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+.lead{
+    background-image: url(../images/lead.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30% 20% 20%;
+}
+.lead h1{
+    font-weight: 600;
+    margin-bottom: 30%;
+}
+.about-us{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #003333;
+    color: #fff;
+}
+.hide-text + button{
+    margin-top: 4rem;
+}
+.news .news-img img{
+    width: 100%;
+}
+.news{
+    background-color: #FFF0F5;
+    padding: 5rem 3rem; 
+}
+.news article a{
+    font-weight: 600;
+}
+.ourwork{
+    padding: 5rem 3rem;
+    background-color: #8FBC8F;
+    color: #fff;
+}
+.brand ul li{
+    margin-bottom: 3rem;
+}
+.btn-light {
+    color: #8FBC8F;
+}
+footer{
+    background-color: #003333;
+    color: #fff;
+}
+footer .navigation{
+    padding: 5rem 3rem 3rem;
+}
+.navigation .footer-img{
+    margin-bottom: 3rem;
+}
+.navigation div:nth-of-type(2) a{
+    margin-bottom: 1.5rem;
+}
+footer .copyright{
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}

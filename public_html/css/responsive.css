@@ -1,0 +1,36 @@
+@media(min-width:100px){
+    html{
+        font-size: 5px;
+    }
+    .container{
+        max-width: 575px;
+    }
+}
+
+@media(min-width:576px){
+    html{
+        font-size: 7px;
+    }
+    .container{
+        max-width: 767px;
+    }
+}
+
+@media(min-width:768px){
+    html{
+        font-size: 10px;
+    }
+    .container{
+        max-width: 991px;
+    }
+}
+
+@media(min-width:992px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+@media(min-width:1200px){
+  
+}
